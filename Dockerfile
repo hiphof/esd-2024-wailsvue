@@ -21,6 +21,4 @@ WORKDIR /app
 # install Wails CLI
 RUN go install github.com/wailsapp/wails/v2/cmd/wails@v2.9.2
 
-EXPOSE 8080
-
 CMD ["bash"]
