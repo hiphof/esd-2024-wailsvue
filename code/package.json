@@ -1,0 +1,11 @@
+{
+  "name": "esd",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd frontend && npm run dev -- --host",
+    "build-windows": "wails build -platform windows/amd64",
+    "build-linux": "wails build -platform linux/amd64"
+  }
+}
