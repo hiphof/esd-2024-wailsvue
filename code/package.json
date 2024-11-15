@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "cd frontend && npm run dev -- --host",
+    "dev-setup": "cd frontend && npm install",
+    "dev-exposed": "cd frontend && npm run dev -- --host",
     "build-windows": "wails build -platform windows/amd64",
     "build-linux": "wails build -platform linux/amd64"
   }
