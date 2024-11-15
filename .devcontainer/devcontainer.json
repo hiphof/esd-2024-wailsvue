@@ -1,0 +1,22 @@
+{
+    "name": "WailsVue Dev Env",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "wails-dev",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                //"golang.Go", // Go Language Features
+                "vue.volar", // Vue Language Features (Volar)
+                "dbaeumer.vscode-eslint", // ESLint for linting
+                "esbenp.prettier-vscode" // Prettier for formatting
+            ],
+            "settings": {
+                "editor.tabSize": 4,
+                "[vue]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode"
+                }
+            }
+        }
+    }
+}
