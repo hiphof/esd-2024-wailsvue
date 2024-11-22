@@ -21,4 +21,4 @@ WORKDIR /app
 # install Wails CLI
 RUN go install github.com/wailsapp/wails/v2/cmd/wails@v2.9.2
 
-CMD ["sh", "-c", "npm run dev-setup && npm run dev-exposed"]
+CMD ["bash"]
