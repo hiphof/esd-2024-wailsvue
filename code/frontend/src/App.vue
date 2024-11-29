@@ -1,21 +1,16 @@
 <script lang="ts" setup>
-import HelloWorld from "./components/HelloWorld.vue"</script>
-
+	import Task1 from "./components/Task1.vue"
+	import Task2 from "./components/Task2.vue" 
+	import Task3 from "./components/Task3.vue" 
+	import Task4 from "./components/Task4.vue" 
+</script>
 <template>
-	<img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png" />
-	<HelloWorld />
+	<Task1 />
+	<Task2 />
+	<Task3 />
+	<Task4 />
 </template>
 
 <style>
-#logo {
-	display: block;
-	width: 50%;
-	height: 50%;
-	margin: auto;
-	padding: 10% 0 0;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-origin: content-box;
-}
+
 </style>
