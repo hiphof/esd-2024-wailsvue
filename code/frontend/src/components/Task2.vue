@@ -1,11 +1,15 @@
 <script lang="ts" setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 const weatherData = ref<any>();
 const loading = ref(true);
-const error = ref<String>();
+const error = ref<string | null>(null);
+const refreshCounter = ref(10);
+let refreshInterval: NodeJS.Timeout;
 
-onMounted(async () => {
+const fetchWeatherData = async () => {
+    loading.value = true;
+    error.value = null;
     try {
         const response = await fetch(
             'https://api.open-meteo.com/v1/forecast?latitude=51.37&longitude=6.17&current_weather=true'
@@ -20,6 +24,34 @@ onMounted(async () => {
     } finally {
         loading.value = false;
     }
+};
+
+const resetCounter = () => {
+    refreshCounter.value = 10;
+};
+
+const startRefreshTimer = () => {
+    refreshInterval = setInterval(() => {
+        refreshCounter.value--;
+        if (refreshCounter.value === 0) {
+            resetCounter();
+            fetchWeatherData();
+        }
+    }, 1000);
+};
+
+const manualRefresh = () => {
+    resetCounter();
+    fetchWeatherData(); 
+};
+
+onMounted(() => {
+    fetchWeatherData(); 
+    startRefreshTimer(); 
+});
+
+onUnmounted(() => {
+    clearInterval(refreshInterval);
 });
 </script>
 
@@ -32,5 +64,7 @@ onMounted(async () => {
             <p>Temperature: {{ weatherData.temperature }}°C</p>
             <p>Wind Speed: {{ weatherData.windSpeed }} km/h</p>
         </div>
+        <p>Next update in: {{ refreshCounter }} seconds</p>
+              <button @click="manualRefresh">Refresh Now</button>
     </div>
 </template>
