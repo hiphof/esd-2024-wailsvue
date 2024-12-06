@@ -5,7 +5,7 @@ const weatherData = ref<any>();
 const loading = ref(true);
 const error = ref<string | null>(null);
 const refreshCounter = ref(10);
-let refreshInterval: NodeJS.Timeout;
+let refreshInterval: number;
 
 const fetchWeatherData = async () => {
     loading.value = true;
