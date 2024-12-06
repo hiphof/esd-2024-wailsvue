@@ -1,14 +1,16 @@
 <script lang="ts" setup>
-	import Task1 from "./components/Task1.vue"
-	import Task2 from "./components/Task2.vue" 
-	import Task3 from "./components/Task3.vue" 
-	import Task4 from "./components/Task4.vue" 
 </script>
+
 <template>
-	<Task1 />
-	<Task2 />
-	<Task3 />
-	<Task4 />
+	<nav>
+		<RouterLink to="/task-1">Go to Task 1</RouterLink>
+		<RouterLink to="/task-2">Go to Task 2</RouterLink>
+		<RouterLink to="/task-3">Go to Task 3</RouterLink>
+		<RouterLink to="/task-4">Go to Task 4</RouterLink>
+	</nav>
+	<main>
+		<RouterView />
+	</main>
 </template>
 
 <style>
