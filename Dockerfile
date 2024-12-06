@@ -1,20 +1,14 @@
-FROM golang:1.21-alpine AS builder
+FROM golang:1.23 AS builder
 
-RUN apk add --no-cache \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     bash \
-    build-base \
+    build-essential \
     gcc \
-    musl-dev \
     npm \
     nodejs \
-    pkgconfig \
-    libx11-dev \
-    libxcursor-dev \
-    libxrandr-dev \
-    libxinerama-dev \
-    libxi-dev \
-    mesa-dev
+    libgtk-3-dev \
+    libwebkit2gtk-4.0-dev
 
 WORKDIR /app
 
