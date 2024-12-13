@@ -19,5 +19,5 @@
             }
         }
     },
-    "postAttachCommand": "npm run dev-setup && npm run dev-exposed"
+    "postAttachCommand": "npm run dev-setup && npm run dev"
 }

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev-setup": "cd frontend && npm install",
-    "dev-exposed": "cd frontend && npm run dev -- --host",
+    "dev": "cd frontend && npm run dev",
     "build-windows": "wails build -platform windows/amd64",
     "build-linux": "wails build -platform linux/amd64"
   }
