@@ -24,7 +24,7 @@
 	border: 2px #323232 solid;
 	border-top: none;
 	text-decoration: none;
-	
+
 	transition: all 0.1s ease-out;
 }
 
