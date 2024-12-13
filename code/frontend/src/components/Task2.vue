@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import TaskWrapper from "./TaskWrapper.vue"
 import { ref, onMounted, onUnmounted } from 'vue';
 
 const weatherData = ref<any>();
@@ -56,15 +57,22 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div>
-        <h1>Task 2: Fetch Weather Data</h1>
-        <p v-if="loading">Loading...</p>
-        <p v-else-if="error">Error: {{ error }}</p>
-        <div v-else>
-            <p>Temperature: {{ weatherData.temperature }}°C</p>
-            <p>Wind Speed: {{ weatherData.windSpeed }} km/h</p>
-        </div>
-        <p>Next update in: {{ refreshCounter }} seconds</p>
-              <button @click="manualRefresh">Refresh Now</button>
-    </div>
+    <TaskWrapper>
+        <template #header>
+            <h1>Task 2: Fetch Weather Data</h1>
+            <p>
+                hello welcome to task 2 you are well on your way to becoming an osu! rhythm champion
+            </p>
+        </template>
+        <template #default>
+            <p v-if="loading">Loading...</p>
+            <p v-else-if="error">Error: {{ error }}</p>
+            <div v-else>
+                <p>Temperature: {{ weatherData.temperature }}°C</p>
+                <p>Wind Speed: {{ weatherData.windSpeed }} km/h</p>
+            </div>
+            <p>Next update in: {{ refreshCounter }} seconds</p>
+            <button @click="manualRefresh">Refresh Now</button>
+        </template>
+    </TaskWrapper>
 </template>
