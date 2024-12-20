@@ -22,5 +22,13 @@
             }
         }
     },
-    "postAttachCommand": "npm run dev-setup && npm run dev"
+    "portsAttributes": {
+        "5173": {
+            "onAutoForward": "silent"
+        },
+        "34115": {
+            "onAutoForward": "notify"
+        }
+    },
+    "postAttachCommand": "wails dev"
 }
