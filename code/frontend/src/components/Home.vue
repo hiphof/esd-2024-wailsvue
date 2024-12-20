@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 
 import { Greet } from "../../wailsjs/go/main/App"
-import { reactive, ref } from "vue"
+import { ref } from "vue"
 
 const greet = ref("")
 
