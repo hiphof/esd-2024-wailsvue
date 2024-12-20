@@ -1,19 +1,24 @@
 # README
 
-## About
+## Welcome
 
-This is the official Wails Vue-TS template.
+As soon as your dev container is finished installing, it automatically executes `wails dev` for you. This will boot up wails for the first time, initializing the Vue frontend as well as building the Go backend.
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+If you see output similar to the following:
 
-## Live Development
+```cmd
+Watching (sub)/directory: /app
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+To develop in the browser and call your bound Go methods from Javascript, navigate to: http://localhost:34115
+```
 
-## Building
+This indicates that the startup process has finished.  
+You can CTRL/CMD + click the link in the terminal to visit the Wails frontend in your browser!  
+You can also click [here](http://localhost:34115)
 
-To build a redistributable, production mode package, use `wails build`.
+## Task Overview
+
+[Jump to Task 1](./frontend/src/tasks/task-1/README.md)  
+[Jump to Task 2](./frontend/src/tasks/task-2/README.md)  
+[Jump to Task 3](./frontend/src/tasks/task-3/README.md)  
+[Jump to Task 4](./frontend/src/tasks/task-4/README.md)  
