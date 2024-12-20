@@ -6,7 +6,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                //"golang.Go", // Go Language Features
+                "golang.go", // Go Language Features
                 "vue.volar", // Vue Language Features (Volar)
                 "dbaeumer.vscode-eslint", // ESLint for linting
                 "esbenp.prettier-vscode" // Prettier for formatting
@@ -15,7 +15,10 @@
                 "editor.tabSize": 4,
                 "[vue]": {
                     "editor.defaultFormatter": "esbenp.prettier-vscode"
-                }
+                },
+                "go.useLanguageServer": true,
+                "go.gopath": "/go",
+                "go.toolsGopath": "/go"
             }
         }
     },
