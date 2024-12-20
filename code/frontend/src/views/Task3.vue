@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import TaskWrapper from "./TaskWrapper.vue"
-import Task3Card from "./Task3Card.vue"
+import TaskWrapper from "../components/TaskWrapper.vue"
+import Task3 from "../tasks/task-3/Task3.vue"
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import Task3Card from "./Task3Card.vue"
 			</p>
 		</template>
 		<template #default>
-			<Task3Card title="Vue is awesome!" content="Vue makes frontend development simpler." />
+			<Task3 />
 		</template>
 	</TaskWrapper>
 </template>

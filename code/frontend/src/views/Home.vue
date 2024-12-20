@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 
 import { Greet } from "../../wailsjs/go/main/App"
 import { ref } from "vue"

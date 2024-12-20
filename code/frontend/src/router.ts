@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router"
 
-import Home from "./components/Home.vue"
-import Task1 from "./components/Task1.vue"
-import Task2 from "./components/Task2.vue"
-import Task3 from "./components/Task3.vue"
-import Task4 from "./components/Task4.vue"
+import Home from "./views/Home.vue"
+import Task1 from "./views/Task1.vue"
+import Task2 from "./views/Task2.vue"
+import Task3 from "./views/Task3.vue"
+import Task4 from "./views/Task4.vue"
 
 const routes = [
 	{ path: "/", component: Home },

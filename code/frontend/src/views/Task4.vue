@@ -1,9 +1,6 @@
 <script setup lang="ts">
-import TaskWrapper from "./TaskWrapper.vue"
-import { ref } from "vue"
-import Task4Input from "./Task4Input.vue"
-
-const name = ref("")
+import TaskWrapper from "../components/TaskWrapper.vue"
+import Task4 from "../tasks/task-4/Task4.vue"
 </script>
 
 <template>
@@ -15,9 +12,7 @@ const name = ref("")
 			</p>
 		</template>
 		<template #default>
-			<p>Enter your name:</p>
-			<Task4Input v-model="name" />
-			<p>Hello, {{ name }}!</p>
+			<Task4 />
 		</template>
 	</TaskWrapper>
 </template>
