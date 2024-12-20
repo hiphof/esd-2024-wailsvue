@@ -16,6 +16,19 @@ This indicates that the startup process has finished.
 You can CTRL/CMD + click the link in the terminal to visit the Wails frontend in your browser!  
 You can also click [here](http://localhost:34115)
 
+## Project Structure
+
+The project structure might seem a little overwhelming at first, but we are mainly focusing on two locations:
+
+`/backend/app.go`  
+This is the core of our Wails applications backend, where we can write Go code which has regular system access just like any other desktop application.
+
+`/frontend/src/tasks/*`  
+Here we can find all the practical tasks for this workshop. These are isolated Vue components where we will explore some entry level features of Vue.
+
+`/frontend/src/solutions/*`  
+If you get stuck or just want to quickly peek into how we intended a task to be solved, feel free to cheat!
+
 ## Task Overview
 
 [Jump to Task 1](./frontend/src/tasks/task-1/README.md)  
