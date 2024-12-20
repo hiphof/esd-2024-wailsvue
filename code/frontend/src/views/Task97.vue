@@ -1,18 +1,18 @@
 <script setup lang="ts">
 import TaskWrapper from "../components/TaskWrapper.vue"
-import Task4 from "../tasks/task-4/Task4.vue"
+import Task97 from "../tasks/task-97/Task97.vue"
 </script>
 
 <template>
 	<TaskWrapper>
 		<template #header>
-			<h1>Task 4: Two-Way Data Binding</h1>
+			<h1>Task 97: Fetch Weather Data</h1>
 			<p>
-				hello welcome to task 4 you are well on your way to becoming an osu! rhythm champion
+				hello welcome to task 97 you are well on your way to becoming an osu! rhythm champion
 			</p>
 		</template>
 		<template #default>
-			<Task4 />
+			<Task97 />
 		</template>
 	</TaskWrapper>
 </template>

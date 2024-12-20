@@ -32,6 +32,6 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 ## Task Overview
 
 [Jump to Task 1](./frontend/src/tasks/task-1/README.md)  
-[Jump to Task 2](./frontend/src/tasks/task-2/README.md)  
-[Jump to Task 3](./frontend/src/tasks/task-3/README.md)  
-[Jump to Task 4](./frontend/src/tasks/task-4/README.md)  
+[Jump to Task 97](frontend/src/tasks/task-97/README.md)  
+[Jump to Task 98](frontend/src/tasks/task-98/README.md)  
+[Jump to Task 99](frontend/src/tasks/task-99/README.md)  
