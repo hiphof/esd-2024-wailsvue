@@ -13,6 +13,7 @@
             ],
             "settings": {
                 "editor.tabSize": 4,
+                "editor.insertSpaces": false,
                 "[vue]": {
                     "editor.defaultFormatter": "esbenp.prettier-vscode"
                 },
