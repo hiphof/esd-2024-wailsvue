@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import { Greet } from "../../wailsjs/go/main/App"
+import { Greet } from "../../wailsjs/go/backend/App"
 import { ref } from "vue"
 
 const greet = ref("")
