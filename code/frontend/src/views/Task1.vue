@@ -6,7 +6,7 @@ import Task1 from "../tasks/task-1/Task1.vue"
 <template>
 	<TaskWrapper>
 		<template #header>
-			<h1>Task 1: Vue Basics</h1>
+			<h1>Task 1: Vue Reactivity Basics - Ref for Primitives</h1>
 			<p>
 				hello welcome to task 1 you are well on your way to becoming an osu! rhythm champion
 			</p>
