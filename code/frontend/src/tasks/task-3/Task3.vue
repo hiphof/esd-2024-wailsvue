@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import Task3Card from "./Task3Card.vue"
 </script>
 
