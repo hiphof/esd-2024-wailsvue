@@ -13,3 +13,9 @@ const squared = Math.pow(number.value, 2)
 	<!-- NOTE: we are not calling a function on click, we are simply using inline JavaScript -->
 	<button @click="number += 1">Increment</button>
 </template>
+
+<style scoped>
+p {
+	font-size: x-large;
+}
+</style>
