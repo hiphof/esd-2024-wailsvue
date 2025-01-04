@@ -37,5 +37,6 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 [Task 4: Conditional Rendering](frontend/src/tasks/task-4/README.md)  
 [Task 5: Lifecycle Hooks](frontend/src/tasks/task-5/README.md)  
 [Task 6: Element References](frontend/src/tasks/task-6/README.md)  
+[Task 7: List Rendering](frontend/src/tasks/task-7/README.md)  
 [Task 98](frontend/src/tasks/task-98/README.md)  
 [Task 99](frontend/src/tasks/task-99/README.md)  
