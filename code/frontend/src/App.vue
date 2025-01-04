@@ -23,10 +23,10 @@
 .router-link {
 	padding: 0.5rem 1rem;
 
-	color: #787878;
-	background: #282828;
+	color: light-dark(#656565, #787878);
+	background: light-dark(#d9d9d9, #282828);
 	border-radius: 0 0 0.5rem 0.5rem;
-	border: 2px #323232 solid;
+	border: 2px light-dark(#c7c7c7, #323232) solid;
 	border-top: none;
 	text-decoration: none;
 
@@ -44,11 +44,11 @@
 
 .router-link-active {
 	font-weight: bold;
-	color: hotpink;
+	color: light-dark(#696CFF, hotpink);
 }
 
 .router-link:hover {
-	box-shadow: rgba(255, 105, 180, 0.366) 0 0 3rem;
+	box-shadow: light-dark(rgba(105, 108, 255, 0.79), rgba(255, 105, 180, 0.366)) 0 0 3rem;
 }
 
 .router {
