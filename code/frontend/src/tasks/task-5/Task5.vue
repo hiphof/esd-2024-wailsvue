@@ -52,17 +52,13 @@ const manualRefresh = () => {
 	- fetch weather data
 	- start refresh timer
 */
-onMounted(() => {
-
-})
 
 /* TODO 1.2:
 	register a callback to be called after the component has been unmounted
 	- clear the refresh interval
 */
-onUnmounted(() => {
-	
-})
+
+
 </script>
 
 <template>
