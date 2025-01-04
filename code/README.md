@@ -33,6 +33,6 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 
 [Task 1: Vue Reactivity Basics - Ref for Primitives](./frontend/src/tasks/task-1/README.md)  
 [Task 2: Vue Reactivity Basics - Reactive Objects](./frontend/src/tasks/task-2/README.md)  
-[Task 97](frontend/src/tasks/task-97/README.md)  
+[Task 3: Lifecycle Hooks](frontend/src/tasks/task-3/README.md)  
 [Task 98](frontend/src/tasks/task-98/README.md)  
 [Task 99](frontend/src/tasks/task-99/README.md)  

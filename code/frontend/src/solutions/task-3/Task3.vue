@@ -7,6 +7,7 @@ const error = ref<string | null>(null)
 const refreshCounter = ref(10)
 let refreshInterval: number
 
+/* NOTE: do not touch this function */
 const fetchWeatherData = async () => {
 	loading.value = true
 	error.value = null
@@ -26,6 +27,7 @@ const fetchWeatherData = async () => {
 	}
 }
 
+/* HINT: you can change the refreshCounter.value to something smaller to fetch weather data faster for playing around */
 const resetCounter = () => {
 	refreshCounter.value = 10
 }
@@ -45,11 +47,20 @@ const manualRefresh = () => {
 	fetchWeatherData()
 }
 
+/* TODO 1.1: 
+	register a callback to be called after the component has been mounted
+	- fetch weather data
+	- start refresh timer
+*/
 onMounted(() => {
 	fetchWeatherData()
 	startRefreshTimer()
 })
 
+/* TODO 1.2:
+	register a callback to be called after the component has been unmounted
+	- clear the refresh interval
+*/
 onUnmounted(() => {
 	clearInterval(refreshInterval)
 })
