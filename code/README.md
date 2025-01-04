@@ -37,3 +37,11 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 [Task 5: Lifecycle Hooks](frontend/src/tasks/task-5/README.md)  
 [Task 98](frontend/src/tasks/task-98/README.md)  
 [Task 99](frontend/src/tasks/task-99/README.md)  
+
+## References
+
+Task 1 & 2:  
+Gore, A 2022, Ref vs reactive, vuejsdevelopers.com, viewed 4 January 2025, <https://vuejsdevelopers.com/2022/06/01/ref-vs-reactive/>.
+
+Event Handling n.d., Vue.js, viewed 4 January 2025, <https://vuejs.org/guide/essentials/event-handling>.
+
