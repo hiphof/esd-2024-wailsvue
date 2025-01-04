@@ -11,8 +11,8 @@
 		<RouterLink class="router-link" to="/task-5">Task 5</RouterLink>
 		<RouterLink class="router-link" to="/task-6">Task 6</RouterLink>
 		<RouterLink class="router-link" to="/task-7">Task 7</RouterLink>
-		<RouterLink class="router-link" to="/task-98">Task 98</RouterLink>
-		<RouterLink class="router-link" to="/task-99">Task 99</RouterLink>
+		<RouterLink class="router-link" to="/task-8">Task 8</RouterLink>
+		<RouterLink class="router-link" to="/task-9">Task 9</RouterLink>
 	</nav>
 	<main>
 		<RouterView />

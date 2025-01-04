@@ -8,8 +8,8 @@ import Task4 from "./views/Task4.vue"
 import Task5 from "./views/Task5.vue"
 import Task6 from "./views/Task6.vue"
 import Task7 from "./views/Task7.vue"
-import Task98 from "./views/Task98.vue"
-import Task99 from "./views/Task99.vue"
+import Task8 from "./views/Task8.vue"
+import Task9 from "./views/Task9.vue"
 
 const routes = [
 	{ path: "/", component: Home },
@@ -20,8 +20,8 @@ const routes = [
 	{ path: "/task-5", component: Task5 },
 	{ path: "/task-6", component: Task6 },
 	{ path: "/task-7", component: Task7 },
-	{ path: "/task-98", component: Task98 },
-	{ path: "/task-99", component: Task99 },
+	{ path: "/task-8", component: Task8 },
+	{ path: "/task-9", component: Task9 },
 ]
 
 export const router = createRouter({
