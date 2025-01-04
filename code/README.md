@@ -48,3 +48,5 @@ Gore, A 2022, Ref vs reactive, vuejsdevelopers.com, viewed 4 January 2025, <http
 
 Event Handling n.d., Vue.js, viewed 4 January 2025, <https://vuejs.org/guide/essentials/event-handling>.
 
+Task 3:  
+Vue Computed Properties n.d., w3schools.com, viewed 4 January 2025, <https://www.w3schools.com/vue/vue_computed-properties.php>.
