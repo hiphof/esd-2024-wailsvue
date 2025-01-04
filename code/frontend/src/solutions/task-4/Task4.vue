@@ -21,7 +21,6 @@ const status = ref("")
 	<p v-else>⚠️ No Status</p>
 
 	<div class="controls">
-		<!-- NOTE: we are not calling a function on click, we are simply using inline JavaScript -->
 		<button @click="status = 'success'">Set Success</button>
 		<button @click="status = 'error'">Set Error</button>
 		<button @click="status = ''">Clear Status</button>
