@@ -46,7 +46,11 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 Task 1 & 2:  
 Gore, A 2022, Ref vs reactive, vuejsdevelopers.com, viewed 4 January 2025, <https://vuejsdevelopers.com/2022/06/01/ref-vs-reactive/>.
 
-Event Handling n.d., Vue.js, viewed 4 January 2025, <https://vuejs.org/guide/essentials/event-handling>.
+Event Handling n.d., vuejs.org, viewed 4 January 2025, <https://vuejs.org/guide/essentials/event-handling>.
 
 Task 3:  
 Vue Computed Properties n.d., w3schools.com, viewed 4 January 2025, <https://www.w3schools.com/vue/vue_computed-properties.php>.
+
+Task3:  
+Vue v-if Directive n.d., w3schools.com, viewed 4 January 2025 <https://www.w3schools.com/vue/vue_v-if.php>  
+Conditional Rendering n.d., vuejs.org, viewed 4 January 2025 <https://vuejs.org/guide/essentials/conditional#v-if-vs-v-show>
