@@ -8,7 +8,12 @@ import Task5 from "../tasks/task-5/Task5.vue"
 		<template #header>
 			<h1>Task 5: Fetch Weather Data</h1>
 			<p>
-				hello welcome to task 5 you are well on your way to becoming an osu! rhythm champion
+				In this task we take a look at using 'Lifecycle Hooks'. 
+				In this example we take a look specifically at 'onMounted' and 'onUnmounted'.
+			</p>
+			<p>
+				While the manual button works for requesting weather data, we want it to refresh every ten seconds.
+				That code should be run on mount!
 			</p>
 		</template>
 		<template #default>
