@@ -23,6 +23,7 @@ const props = defineProps({
 
 <template>
 	<div class="box">
+		<!-- TODO 8.3: use the props you defined above here -->
 		<h2>{{ title }}</h2>
 		<p>{{ content }}</p>
 	</div>

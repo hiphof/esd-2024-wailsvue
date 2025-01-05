@@ -13,8 +13,9 @@
 
 <template>
 	<div class="box">
-		<h2>{{ "your title prop" }}</h2>
-		<p>{{ "your content prop" }}</p>
+		<!-- TODO 8.3: use the props you defined above here -->
+		<h2>Your Title</h2>
+		<p>Your Content</p>
 	</div>
 </template>
 
