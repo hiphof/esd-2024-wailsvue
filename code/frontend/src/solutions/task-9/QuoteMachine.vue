@@ -45,4 +45,10 @@ function setRandomQuote() {
 	margin: 1rem;
 	background: #ccc2;
 }
+
+input {
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.25rem;
+	border: none;
+}
 </style>
