@@ -58,3 +58,7 @@ Conditional Rendering n.d., vuejs.org, viewed 4 January 2025 <https://vuejs.org/
 Task 5:
 Lifecycle Hooks n.d., vuejs.org, viewed 4 January 2025
 <https://vuejs.org/guide/essentials/lifecycle>
+
+Task 6:
+Template refs n.d., vuejs.org, viewed 5 January 2025  
+<https://vuejs.org/guide/essentials/template-refs>
