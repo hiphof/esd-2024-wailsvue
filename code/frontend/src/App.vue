@@ -14,6 +14,7 @@
 		<RouterLink class="router-link" to="/task-7">T7</RouterLink>
 		<RouterLink class="router-link" to="/task-8">T8</RouterLink>
 		<RouterLink class="router-link" to="/task-9">T9</RouterLink>
+		<RouterLink class="router-link" to="/task-10">T10</RouterLink>
 	</nav>
 	<main>
 		<RouterView />

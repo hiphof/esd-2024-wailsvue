@@ -12,7 +12,7 @@ import Task9 from "../tasks/task-9/Task9.vue"
 			</p>
 			<p>
 				This task should show you that data can be manipulated both ways using 'v-model'. 
-				From a user and programatically.
+				From a user and programmatically.
 			</p>
 			<p>
 				Make it possible to automatically update the quote by typing it yourself

@@ -11,6 +11,7 @@ import Task6 from "./views/Task6.vue"
 import Task7 from "./views/Task7.vue"
 import Task8 from "./views/Task8.vue"
 import Task9 from "./views/Task9.vue"
+import Task10 from "./views/Task10.vue"
 
 const routes = [
 	{ path: "/", component: Home },
@@ -24,6 +25,7 @@ const routes = [
 	{ path: "/task-7", component: Task7 },
 	{ path: "/task-8", component: Task8 },
 	{ path: "/task-9", component: Task9 },
+	{ path: "/task-10", component: Task10 },
 ]
 
 export const router = createRouter({
