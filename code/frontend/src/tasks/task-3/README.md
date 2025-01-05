@@ -2,7 +2,7 @@
 
 # Task 3: Computed Property
 
-Alright, awesome! Now you know about reactivity.
+Alright, awesome! If you did the previous tasks you now know about reactivity.
 
 Next we will look at the 'computed' property. It's a property that updates automatically when a dependency changes.
 That is different to methods as they are called when something happens as in event handling for example.
