@@ -71,3 +71,7 @@ Template refs n.d., vuejs.org, viewed 5 January 2025
 Task 7:
 List Rendering n.d., vuejs.org, viewed 5 January 2025  
 <https://vuejs.org/guide/essentials/list>  
+
+Task 9:  
+Two-way Binding n.d., w3schools.com, viewed 5 January 2025  
+<https://www.w3schools.com/vue/vue_v-model.php>
