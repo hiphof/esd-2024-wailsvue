@@ -2,7 +2,7 @@
 
 # Task 1: Vue Reactivity Basics - Ref for Primitives
 
-In this first task we learn what the 'ref' attribute is used for. We use it to create a single reactive variable.
+In this task we learn what the 'ref' attribute is used for. We use it to create a single reactive variable.
 
 [Go to Task 1](Task1.vue)
 
