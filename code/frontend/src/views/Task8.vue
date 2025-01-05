@@ -8,7 +8,10 @@ import Task8 from "../tasks/task-8/Task8.vue"
 		<template #header>
 			<h1>Task 8: Custom Component</h1>
 			<p>
-				hello welcome to task 8 you are well on your way to becoming an osu! rhythm champion
+				Let's go and build our own first custom component.
+			</p>
+			<p>
+				Your task is to replace the paragraph with your own component.
 			</p>
 		</template>
 		<template #default>
