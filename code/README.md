@@ -2,7 +2,9 @@
 
 ## Welcome
 
-As soon as your dev container is finished installing, it automatically executes `wails dev` for you. This will boot up wails for the first time, initializing the Vue frontend as well as building the Go backend.
+As soon as your dev container is finished installing, you are one command away from running wails.
+Use the `wails dev` command to start up wails for the first time.
+This will initialize the Vue frontend as well as building the Go backend.
 
 If you see output similar to the following:
 
@@ -31,7 +33,7 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 
 ## Task Overview
 
-[Task 0: The Wails Philosophy](./frontend/src/tasks/task-0/README.md)
+[Task 0: The Wails Philosophy](./frontend/src/tasks/task-0/README.md)  
 [Task 1: Reactivity Basics - Ref for Primitives](./frontend/src/tasks/task-1/README.md)  
 [Task 2: Reactivity Basics - Reactive Objects](./frontend/src/tasks/task-2/README.md)  
 [Task 3: Computed Property](./frontend/src/tasks/task-3/README.md)  
