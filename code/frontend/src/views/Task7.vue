@@ -8,7 +8,13 @@ import Task7 from "../tasks/task-7/Task7.vue"
 		<template #header>
 			<h1>Task 7: List Rendering</h1>
 			<p>
-				hello welcome to task 7 you are well on your way to becoming an osu! rhythm champion
+				Hm, our list is not properly rendering. It's only showing one singular item.
+			</p>
+			<p>
+				You can't fight with just an 'Iron Dagger'. Your inventory should be way better.
+			</p>
+			<p>
+				Use the 'v-for' directive to iterate your inventory!
 			</p>
 		</template>
 		<template #default>
