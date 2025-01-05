@@ -27,9 +27,9 @@
 }
 
 .floating-card {
-	background: #202020;
+	background: light-dark(#f3f3f3, #202020);
 	border-radius: 0.5rem;
-	border: 2px #242424 solid;
+	border: 2px light-dark(#e0e0e0, #242424) solid;
 	padding: 2rem;
 }
 

@@ -15,6 +15,7 @@ const fetchWeatherData = async () => {
 		const response = await fetch(
 			"https://api.open-meteo.com/v1/forecast?latitude=51.37&longitude=6.17&current_weather=true"
 		)
+		await new Promise((resolve, _) => setTimeout(() => resolve(true), 1000))
 		const data = await response.json()
 		weatherData.value = {
 			temperature: data.current_weather.temperature,

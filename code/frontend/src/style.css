@@ -33,3 +33,53 @@ body {
 main {
 	height: 100%;
 }
+
+button {
+	font-size: large;
+	background-color: hsl(168, 76%, 42%);
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	transition: all 0.1s ease-out;
+	cursor: pointer;
+	user-select: none;
+}
+
+button:hover {
+	background-color: hsl(168, 76%, 47%);
+	box-shadow: hsl(168, 76%, 47%, 0.366) 0 0 1rem;
+}
+
+button:active {
+	background-color: hsl(168, 76%, 37%);
+	transform: scale(0.95);
+}
+
+button[data-style="warning"] {
+	background-color: hsl(37, 74%, 53%);
+}
+
+button[data-style="warning"]:hover {
+	background-color: hsl(37, 74%, 58%);
+	box-shadow: hsl(37, 74%, 58%, 0.366) 0 0 1rem;
+}
+
+button[data-style="warning"]:active {
+	background-color: hsl(37, 74%, 48%);
+	transform: scale(0.95);
+}
+
+button[data-style="error"] {
+	background-color: hsl(351, 81%, 56%);
+}
+
+button[data-style="error"]:hover {
+	background-color: hsl(351, 81%, 59%);
+	box-shadow: hsl(351, 81%, 61%, 0.366) 0 0 1rem;
+}
+
+button[data-style="error"]:active {
+	background-color: hsl(351, 81%, 53%);
+	transform: scale(0.95);
+}

@@ -21,9 +21,9 @@ const status = ref("")
 	<p>⚠️ No Status</p>
 
 	<div class="controls">
-		<button @click="status = 'success'">Set Success</button>
-		<button @click="status = 'error'">Set Error</button>
-		<button @click="status = ''">Clear Status</button>
+		<button @click="status = 'success'" data-style="success">Set Success</button>
+		<button @click="status = 'error'" data-style="error">Set Error</button>
+		<button @click="status = ''" data-style="warning">Clear Status</button>
 	</div>
 </template>
 

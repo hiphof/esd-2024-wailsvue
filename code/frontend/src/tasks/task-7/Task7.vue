@@ -73,7 +73,7 @@ const arbitraryItem = items[0]
 }
 
 .common {
-	color: #a9a9a9;
+	color: light-dark(#7e7e7e, #a9a9a9);
 }
 
 .uncommon {

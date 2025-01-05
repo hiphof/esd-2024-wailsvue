@@ -26,25 +26,4 @@ function incrementCounter() {
 p {
 	font-size: x-large;
 }
-
-button {
-	font-size: large;
-	background-color: hsl(168, 76%, 42%);
-	border: none;
-	padding: 1rem;
-	border-radius: 0.25rem;
-	transition: all 0.1s ease-out;
-	cursor: pointer;
-	user-select: none;
-}
-
-button:hover {
-	background-color: hsl(168, 76%, 47%);
-	box-shadow: hsl(168, 76%, 47%, 0.366) 0 0 1rem;
-}
-
-button:active {
-	background-color: hsl(168, 76%, 37%);
-	transform: scale(0.95);
-}
 </style>
