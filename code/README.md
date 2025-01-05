@@ -44,6 +44,63 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 [Task 8: Custom Components](frontend/src/tasks/task-8/README.md)  
 [Task 9: Two-Way Data Binding](frontend/src/tasks/task-9/README.md)  
 
+
+## Building for Production
+
+Since this workshop is about building Desktop Applications, you might be interested in how to actually build and export this application for your system.
+
+Go & Wails do support cross compilation to Windows & Linux out of the box, so we can use the following commands to build our app:
+
+### For Windows
+```cmd
+wails build -platform windows/amd64
+```
+
+### For Linux
+```cmd
+wails build -platform linux/amd64
+```
+
+The resulting binary will be located in the `/code/build/bin` directory of the Repository
+
+### For macOS
+
+We will use a GitHub runner to build the application for us. This is also how you would do this in production environments.
+
+**Step 1**:  
+Start off by creating a fork of [this repository](https://github.com/sebivenlo/esd-2024-wailsvue). There is only one branch so you only need the main one.
+
+**Step 2**:  
+Update the remote of your cloned repository to be your fork.
+In the working directory of the local repository, you can do this with `git remote set-url origin` followed by your fork URL with the `.git` extension.  
+It should look as follows:
+```cmd
+git remote set-url origin https://github.com/LucaVDW/esd-2024-wailsvue.git
+```
+
+**Step 3**:  
+Commit and push your local changes with git.
+
+**Step 4**:  
+Visit your fork's GitHub page and click on the Actions tab.
+
+**Step 5**:  
+Choose one of the workflows from the left, depending on your macOS architecture and trigger the workflow manually.
+
+**Step 6**:  
+Once the build process has finished, you can refresh the page to see that the GitHub runner has uploaded an artifact for you. Download the artifact `.zip` file.
+
+**Step 7**:  
+After unpacking the artifact, we can not just run the app, since macOS will recognize it as "Broken".  
+We will have to allow it first, since it is not code-signed. We can do this with the following command:
+
+```cmd
+xattr -c ESD-Workshop.app
+```
+
+**Step 8**:  
+Run the app through finder or the terminal of your choice.
+
 ## References
 
 Task 1 & 2:  
