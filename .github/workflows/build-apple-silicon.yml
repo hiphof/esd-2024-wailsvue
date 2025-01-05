@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build for macOS Apple Silicon (arm64)
-    runs-on: macos-12
+    runs-on: macos-latest
 
     steps:
     - name: Checkout Repository
