@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router"
 
 import Home from "./views/Home.vue"
+import Task0 from "./views/Task0.vue"
 import Task1 from "./views/Task1.vue"
 import Task2 from "./views/Task2.vue"
 import Task3 from "./views/Task3.vue"
@@ -13,6 +14,7 @@ import Task9 from "./views/Task9.vue"
 
 const routes = [
 	{ path: "/", component: Home },
+	{ path: "/task-0", component: Task0 },
 	{ path: "/task-1", component: Task1 },
 	{ path: "/task-2", component: Task2 },
 	{ path: "/task-3", component: Task3 },

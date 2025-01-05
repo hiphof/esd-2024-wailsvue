@@ -26,4 +26,7 @@ func (a *App) Greet() string {
 // TODO 0.1:
 // create a function "Multiply" that receives two numbers and multiplies them together
 // take a look at the two functions above to get an idea about the signature
-// since we use "number" in JavaScript and TypeScript
+// you can use int/int64 or float64, if you want to support decimals
+func (a *App) Multiply(num1 float64, num2 float64) float64 {
+	return num1 * num2
+}
