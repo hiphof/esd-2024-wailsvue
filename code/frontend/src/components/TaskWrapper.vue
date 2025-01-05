@@ -30,14 +30,13 @@
 	background: light-dark(#f3f3f3, #202020);
 	border-radius: 0.5rem;
 	border: 2px light-dark(#e0e0e0, #242424) solid;
-	padding: 2rem;
+	padding: 2rem 4rem;
 }
 
 .content {
 	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	display: grid;
+	place-items: center;
 	padding: 2rem;
 }
 </style>

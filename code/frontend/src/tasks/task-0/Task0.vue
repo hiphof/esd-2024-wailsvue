@@ -12,6 +12,6 @@ async function onClick() {
 </script>
 
 <template>
-	<h2>Product: {{ product }}</h2>
+	<p style="font-size: x-large">Product: {{ product }}</p>
 	<button @click="onClick">Calculate</button>
 </template>
