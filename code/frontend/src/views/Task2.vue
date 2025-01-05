@@ -8,7 +8,7 @@ import Task2 from "../tasks/task-2/Task2.vue"
 		<template #header>
 			<h1>Task 2: Vue Reactivity Basics - Reactive Objects</h1>
 			<p>
-				hello welcome to task 2 you are well on your way to becoming an osu! rhythm champion
+				Alright, in this task we use 'reactive' instead of 'ref'. Make the re-rolling of stats possible!
 			</p>
 		</template>
 		<template #default>

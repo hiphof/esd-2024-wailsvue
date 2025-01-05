@@ -2,7 +2,7 @@
 
 # Task 2: Vue Reactivity Basics - Reactive Objects
 
-Good job! Now to 'reactive', which is another method for declaring reactive data.
+Now to 'reactive', which is another method for declaring reactive data.
 
 It is, unlike 'ref' which is initialized with primitives, initialized via objects!
 
