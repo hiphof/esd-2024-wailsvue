@@ -24,6 +24,7 @@
 
 .header {
 	/* empty */
+	padding: 0 16%;
 }
 
 .floating-card {
