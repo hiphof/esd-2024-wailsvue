@@ -11,7 +11,7 @@ import Task6 from "../tasks/task-6/Task6.vue"
 				This one is a very short one.
 			</p>
 			<p>
-				Reference a HTML element via a 'ref' attribute. It should show a different text due to the refernce!
+				Reference a HTML element via a 'ref' attribute. It should show a different text due to the reference!
 			</p>
 		</template>
 		<template #default>
