@@ -31,6 +31,7 @@ If you get stuck or just want to quickly peek into how we intended a task to be 
 
 ## Task Overview
 
+[Task 0: The Wails Philosophy](./frontend/src/tasks/task-0/README.md)
 [Task 1: Reactivity Basics - Ref for Primitives](./frontend/src/tasks/task-1/README.md)  
 [Task 2: Reactivity Basics - Reactive Objects](./frontend/src/tasks/task-2/README.md)  
 [Task 3: Computed Property](./frontend/src/tasks/task-3/README.md)  
