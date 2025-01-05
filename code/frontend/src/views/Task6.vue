@@ -8,7 +8,10 @@ import Task6 from "../tasks/task-6/Task6.vue"
 		<template #header>
 			<h1>Task 6: Element References</h1>
 			<p>
-				hello welcome to task 6 you are well on your way to becoming an osu! rhythm champion
+				This one is a very short one.
+			</p>
+			<p>
+				Reference a HTML element via a 'ref' attribute. It should show a different text due to the refernce!
 			</p>
 		</template>
 		<template #default>
