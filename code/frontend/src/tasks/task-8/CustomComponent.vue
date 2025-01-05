@@ -13,8 +13,8 @@
 
 <template>
 	<div class="box">
-		<h2>{{ title }}</h2>
-		<p>{{ content }}</p>
+		<h2>{{ "your title prop" }}</h2>
+		<p>{{ "your content prop" }}</p>
 	</div>
 </template>
 
