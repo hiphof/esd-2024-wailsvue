@@ -62,3 +62,7 @@ Lifecycle Hooks n.d., vuejs.org, viewed 4 January 2025
 Task 6:
 Template refs n.d., vuejs.org, viewed 5 January 2025  
 <https://vuejs.org/guide/essentials/template-refs>
+
+Task 7:
+List Rendering n.d., vuejs.org, viewed 5 January 2025
+<https://vuejs.org/guide/essentials/list>  
