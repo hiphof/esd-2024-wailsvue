@@ -30,6 +30,5 @@
         "34115": {
             "onAutoForward": "notify"
         }
-    },
-    "postAttachCommand": "wails dev"
+    }
 }
