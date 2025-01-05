@@ -51,6 +51,10 @@ Event Handling n.d., vuejs.org, viewed 4 January 2025, <https://vuejs.org/guide/
 Task 3:  
 Vue Computed Properties n.d., w3schools.com, viewed 4 January 2025, <https://www.w3schools.com/vue/vue_computed-properties.php>.
 
-Task3:  
+Task 4:  
 Vue v-if Directive n.d., w3schools.com, viewed 4 January 2025 <https://www.w3schools.com/vue/vue_v-if.php>  
 Conditional Rendering n.d., vuejs.org, viewed 4 January 2025 <https://vuejs.org/guide/essentials/conditional#v-if-vs-v-show>
+
+Task 5:
+Lifecycle Hooks n.d., vuejs.org, viewed 4 January 2025
+<https://vuejs.org/guide/essentials/lifecycle>
