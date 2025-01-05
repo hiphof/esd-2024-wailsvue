@@ -48,13 +48,13 @@ const manualRefresh = () => {
 	fetchWeatherData()
 }
 
-/* TODO 1.1: 
+/* TODO 5.1: 
 	register a callback to be called after the component has been mounted
 	- fetch weather data
 	- start refresh timer
 */
 
-/* TODO 1.2:
+/* TODO 5.2:
 	register a callback to be called after the component has been unmounted
 	- clear the refresh interval
 */
