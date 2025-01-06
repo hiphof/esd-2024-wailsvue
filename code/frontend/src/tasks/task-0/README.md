@@ -19,6 +19,8 @@ Create a function `Multiply` for the multiplication of two numbers.
 
 ### TODO: 0.2: comment in this import when you completed the function in app.go
 
+[Got to Task 0 (Vue)](Task0.vue)
+
 Comment the import back in once you finished Task 0.1!
 
 ### TODO: 0.3: use the commented out code to call your function
