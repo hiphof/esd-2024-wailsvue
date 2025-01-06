@@ -9,7 +9,7 @@ type Message = {
 
 const messages = reactive<Message[]>([])
 /* TODO 10.3: add computed property to get the last 5 messages in reverse order */
-const last5Messages = computed(() => messages.slice(-5).toReversed())
+const last5Messages = computed(() => messages.slice(-5))
 
 function onMessage(msg: string) {
 	messages.push({ text: msg, timestamp: new Date().valueOf() })
