@@ -27,8 +27,9 @@ onUnmounted(() => {
 	<div class="container">
 		<!-- TODO 10.6: iterate over your computed property -->
 		<p v-for="msg in []" class="message">
-			<i class="timestamp">{{ new Date(msg.timestamp).toLocaleTimeString() }}</i>
-			<b>{{ msg.text }}</b>
+			<!-- COMMENT BACK IN -->
+			<!-- <i class="timestamp">{{ new Date(msg.timestamp).toLocaleTimeString() }}</i> -->
+			<!-- <b>{{ msg.text }}</b> -->
 		</p>
 	</div>
 </template>
