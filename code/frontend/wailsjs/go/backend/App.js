@@ -5,3 +5,7 @@
 export function Greet() {
   return window['go']['backend']['App']['Greet']();
 }
+
+export function Multiply(arg1, arg2) {
+  return window['go']['backend']['App']['Multiply'](arg1, arg2);
+}
